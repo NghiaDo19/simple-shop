@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["./components/*"],
+      // "actions/*": ["./next-app-desktop/actions/*", "./next-app-mobile/actions/*"],
+      // "models/*": ["./next-app-desktop/models/*", "./next-app-mobile/models/*"],
+      // "layouts/*": ["./next-app-desktop/layouts/*", "./next-app-mobile/layouts/*"],
+      "pages/*": ["./pages/*"],
+      // "libraries/*": ["./next-app-desktop/libraries/*"]
+    }
+  },
+  // "include": ["next-app-desktop/**/*", "next-app-mobile/**/*"],
+  "exclude": ["*/**/node_modules"]
+}

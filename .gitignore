@@ -1,1 +1,34 @@
+# Node build artifacts
 node_modules
+npm-debug.log
+
+.next
+
+# Local development
+# *.dev
+.DS_Store
+.idea
+
+# Docker
+#Dockerfile
+docker-compose.yml
+
+# yarn.lock
+
+#server/index.js
+#server/index.js.map
+/config.json
+
+public/css/*
+public/js/*
+public/service-worker.js
+hash/*
+hash/**/*
+
+
+coverage
+dump.rdb
+
+desktop/.next
+newrelic_agent.log
+
